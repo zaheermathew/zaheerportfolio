@@ -17,6 +17,41 @@
 	
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
+	
+	<script>
+		// Get the form element
+document.getElementById('contact-form').addEventListener('submit', function (event) {
+  event.preventDefault(); // Prevent form reload
+
+  // Log a message to confirm the event is working
+  console.log("Form submitted!");
+
+  // Get the values from the input fields
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const subject = document.getElementById('subject').value;
+  const message = document.getElementById('message').value;
+
+  console.log("Name:", name);
+  console.log("Email:", email);
+  console.log("Subject:", subject);
+  console.log("Message:", message);
+
+  // Your email address to receive the message
+  const recipientEmail = "zaheerkhan3789@gmail.com";
+
+  // Construct the mailto URL
+  const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message)}`;
+
+  console.log("Mailto Link:", mailtoLink);
+
+  // Open the user's default email client with the pre-filled details
+  window.location.href = mailtoLink;
+});
+
+	  </script>
+	  
+	  
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	
@@ -54,7 +89,7 @@
 						<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 							<div class="text">
 								<span class="subheading">Hello! This is Zaheer khan</span>
-								<h1 class="mb-4 mt-3">Creative <span>UI/UX</span> Designer &amp; Developer</h1>
+								<h1 class="mb-4 mt-3">Creative <span>UI/UX</span> Designer &amp; Graphic Designer</h1>
 								<p><a href="#" class="btn btn-primary">Hire me</a> <a href="#" class="btn btn-primary btn-outline-primary">Contact Me</a></p>
 							</div>
 						</div>
@@ -92,7 +127,7 @@
 							<span class="flaticon-suitcase"></span>
 						</div>
 						<div class="text">
-							<strong class="number" data-number="750">0</strong>
+							<strong class="number" data-number="175">0</strong>
 							<span>Project Complete</span>
 						</div>
 					</div>
@@ -103,7 +138,7 @@
 							<span class="flaticon-loyalty"></span>
 						</div>
 						<div class="text">
-							<strong class="number" data-number="568">0</strong>
+							<strong class="number" data-number="150">0</strong>
 							<span>Happy Clients</span>
 						</div>
 					</div>
@@ -114,7 +149,7 @@
 							<span class="flaticon-coffee"></span>
 						</div>
 						<div class="text">
-							<strong class="number" data-number="478">0</strong>
+							<strong class="number" data-number="160">0</strong>
 							<span>Cups of coffee</span>
 						</div>
 					</div>
@@ -125,7 +160,7 @@
 							<span class="flaticon-calendar"></span>
 						</div>
 						<div class="text">
-							<strong class="number" data-number="780">0</strong>
+							<strong class="number" data-number="02">0</strong>
 							<span>Years experienced</span>
 						</div>
 					</div>
@@ -150,7 +185,7 @@
 							<div class="col-md-12 heading-section ftco-animate">
 								<span class="subheading">My Intro</span>
 								<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
-								<p>A quiet stream called Varia flows by Zaheer's workshop and brings it the essential inspiration. It is a utopian land, where vibrant elements of design effortlessly fall into place.</p>
+								<p>I’m a passionate Graphic & UI/UX Designer with 2 years of experience, crafting intuitive and visually stunning digital experiences. I specialize in user-centered designs, transforming ideas into engaging interfaces that enhance usability and aesthetics. Let’s create something amazing together! 🚀</p>
 
 								<ul class="about-info mt-4 px-md-0 px-2">
 									<li class="d-flex"><span>Name:</span> <span>Zaheer Khan</span></li>
@@ -158,7 +193,7 @@
 									<li class="d-flex"><span>Address:</span> <span>Hangu pakistan</span></li>
 									<li class="d-flex"><span>Zip code:</span> <span>21060</span></li>
 									<li class="d-flex"><span>Email:</span> <span>zaheerkhan3789@gmail.com</span></li>
-									<li class="d-flex"><span>Phone: </span> <span>+92-3369304504</span></li>
+									<li class="d-flex"><span>Phone: </span> <span>+92-3149617372</span></li>
 								</ul>
 							</div>
 							<div class="col-md-12">
@@ -202,7 +237,7 @@
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<span class="subheading">Skills</span>
 					<h2 class="mb-4">My Skills</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<p>Expert in UI/UX design, graphic design, user-centered interfaces, prototyping, wireframing, and responsive design, with a keen eye for aesthetics and functionality.</p>
 				</div>
 			</div>
 			<div class="row progress-circle mb-5">
@@ -239,7 +274,7 @@
 
 				<div class="col-lg-4 mb-4">
 					<div class="bg-white rounded-lg shadow p-4">
-						<h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4">Photoshop</h2>
 
 						<!-- Progress bar 1 -->
 						<div class="progress mx-auto" data-value='98'>
@@ -270,7 +305,7 @@
 
 				<div class="col-lg-4 mb-4">
 					<div class="bg-white rounded-lg shadow p-4">
-						<h2 class="h5 font-weight-bold text-center mb-4">Css</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4">Illustration</h2>
 
 						<!-- Progress bar 1 -->
 						<div class="progress mx-auto" data-value='68'>
@@ -301,7 +336,7 @@
 
 				<div class="col-lg-4 mb-4">
 					<div class="bg-white rounded-lg shadow p-4">
-						<h2 class="h5 font-weight-bold text-center mb-4">Photoshop</h2>
+						<h2 class="h5 font-weight-bold text-center mb-4">Adobe Illustrater</h2>
 
 						<!-- Progress bar 1 -->
 						<div class="progress mx-auto" data-value='92'>
@@ -401,7 +436,7 @@
 				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
 					<span class="subheading">I am grat at</span>
 					<h2 class="mb-4">We do awesome services for our clients</h2>
-					<p>From design to development, we provide solutions that not only look great but drive meaningful outcomes.</p>
+					<p>From Mobile design to web, we provide solutions that not only look great but drive meaningful outcomes.</p>
 				</div>
 			</div>
 
@@ -806,7 +841,7 @@
 								<span class="fa fa-phone"></span>
 							</div>
 							<div class="text">
-								<p><span>Phone:</span> <a href="tel://1234567920">+92-3369304504</a></p>
+								<p><span>Phone:</span> <a href="tel://1234567920">+92-3149617372</a></p>
 							</div>
 						</div>
 						<div class="dbox w-100 d-flex">
@@ -860,10 +895,10 @@
 						<h2 class="ftco-heading-2">Services</h2>
 						<ul class="list-unstyled">
 							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Web Design</a></li>
-							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Web Development</a></li>
-							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Business Strategy</a></li>
-							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Data Analysis</a></li>
-							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Graphic Design</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Photo Editing</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>poster Designing</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Thambial Designing</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Graphic Designer</a></li>
 						</ul>
 					</div>
 				</div>
@@ -873,7 +908,7 @@
 						<div class="block-23 mb-3">
 							<ul>
 								<li><span class="icon fa fa-map marker"></span><span class="text">Hayat Abad Hangu, Pakistan</span></li>
-								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+92 3369304504</span></a></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+92 3149617372</span></a></li>
 								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">zaheerkhan3789.com</span></a></li>
 							</ul>
 						</div>
